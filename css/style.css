@@ -1,30 +1,35 @@
+
+/* header */
 header{
-    height: 50%;
+    height: 200px;
     background-color: #4EA0FF;
-    background-image: url("file:///C:/Users/Zaps/Desktop/BOOLEAN/html-css-booleaner/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
 }
 
 header .logo{
     width: 20%;
+    margin-top: 120px;
 }
 
-h1 {
+.main-title h1 {
     font-size: 50px;
     margin-bottom: 0;
 }
 
-h3 {
+.main-title h3 {
     color: grey;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-h4 {
+.main-title h4 {
     color: grey;
     margin-top: 0;
 }
+/* /header */
 
+/* main */
 h5 {
     margin: 0;
 }
@@ -33,6 +38,11 @@ h5 {
     color: #20A9E5;
     text-decoration: none;
 }
+
+ul {
+    padding-left: 1%;
+}
+
 
 table{
     border-collapse: collapse;
@@ -51,3 +61,24 @@ table .row3{
     background-color: white;
 }
 
+.col {
+    width: 50%;
+}
+/* /main */
+
+/* footer */
+
+.footer-img {
+    position: relative; 
+}
+
+.top-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;;
+}
+
+/* /footer */
