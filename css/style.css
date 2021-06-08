@@ -1,0 +1,53 @@
+header{
+    height: 50%;
+    background-color: #4EA0FF;
+    background-image: url("file:///C:/Users/Zaps/Desktop/BOOLEAN/html-css-booleaner/img/pattern.png");
+    background-repeat: repeat;
+}
+
+header .logo{
+    width: 20%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: grey;
+    margin-top: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.author-link{
+    color: #20A9E5;
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table .row1{
+    background-color: #20A9E5;
+    color: white;
+}
+
+table .row2, .row4{
+    background-color: #B1E5F2;
+}
+
+table .row3{
+    background-color: white;
+}
+
